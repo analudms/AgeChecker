@@ -45,12 +45,5 @@ function verificar() {
         res.innerHTML = `We detected a ${age} year old ${sex}!`
         res.appendChild(img)
     }
-
 }
-
-
-
-
-
-
  button.addEventListener('click', verificar)
